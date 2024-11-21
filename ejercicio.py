@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from io import StringIO
 import requests
-
 def configurar_pagina():
     st.set_page_config(
         page_title="Análisis de Ventas",
@@ -35,10 +34,11 @@ def configurar_pagina():
 
 def mostrar_informacion_alumno():
     st.markdown("""
-        <div style='background-color: white; padding: 1.5rem; border-radius: 5px; box-shadow: 0 1px 3px rgba(0,0,0,0.12);'>
+        <div style=' padding: 1.5rem; border-radius: 5px; box-shadow: 0 1px 3px rgba(0,0,0,0.12);'>
             <p><strong>Legajo:</strong> 58847</p>
             <p><strong>Nombre:</strong> Sánchez, Tomás Emanuel</p>
             <p><strong>Comisión:</strong> C9</p>
+
         </div>
     """, unsafe_allow_html=True)
 
